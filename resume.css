@@ -1,0 +1,11 @@
+.resume {
+    color: white;
+    z-index: 200;
+    position: absolute;
+    left: 396px;
+    right: 0;
+    top: 0;
+    padding: 60px;
+
+    bottom: 0;
+}

@@ -1,0 +1,102 @@
+.header {
+    background-color: rgb(68, 68, 68);
+    position: fixed;
+    left: 86px;
+    top: 0;
+    bottom: 0;
+    width: 250px;
+    padding: 65px 30px 45px;
+
+}
+
+.header-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+.avatar {
+    width: 180px;
+    height: 180px;
+    border-radius: 300px;
+    border: white 3px solid;
+    margin-bottom: 30px;
+    box-shadow: 10px 10px 20px;
+}
+
+.header-name {
+    color: rgb(245, 245, 245);
+    font-size: 36px;
+    margin-top: 5px;
+    margin-bottom: 7px;
+}
+
+.header-intro {
+    color: rgb(187, 187, 187);
+    font-weight: 300;
+    font-size: 18px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.contact-icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 120px;
+    height: 30px;
+}
+
+.contact-box {
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    align-items: center;
+    height: 30px;
+    width: 30px;
+    margin-top: 20px;
+}
+
+.contact-way {
+    height: 18px;
+    width: 16px;
+    background-color: white;
+    transition: 0.4s ease;
+}
+
+.contact-way:hover {
+    cursor: pointer;
+    background-color: rgb(4, 180, 224);
+    transition: background-color 0.4s;
+}
+
+.header-button {
+    width: 250px;
+    height: 57px;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cv-button {
+    width: 101px;
+    height: 18px;
+    border: white 2px solid;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 28px;
+    color: white;
+    font-size: 15px;
+    transition: 0.4s ease;
+}
+
+.cv-button:hover {
+    background-color: white;
+    color: rgb(4, 180, 224);
+    transition: 0.4s;
+
+}
